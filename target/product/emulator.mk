@@ -36,7 +36,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGE_OVERLAYS := device/generic/goldfish/overlay
 
-PRODUCT_CHARACTERISTICS := emulator
+# PRODUCT_CHARACTERISTICS := emulator
 
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 
@@ -56,5 +56,5 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.com.google.locationfeatures=1
 
 # disable setupwizard
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    ro.setupwizard.mode=DISABLED
+# PRODUCT_SYSTEM_EXT_PROPERTIES += \
+#    ro.setupwizard.mode=DISABLED
