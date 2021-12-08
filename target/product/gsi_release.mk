@@ -60,7 +60,6 @@ PRODUCT_PACKAGES += com.android.apex.cts.shim.v1_with_prebuilts.flattened
 PRODUCT_PACKAGES += \
     gsi_skip_mount.cfg \
     init.gsi.rc \
-    init.vndk-nodef.rc \
 
 # Support additional VNDK snapshots
 PRODUCT_EXTRA_VNDK_VERSIONS := \
