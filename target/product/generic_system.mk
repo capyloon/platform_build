@@ -134,3 +134,5 @@ _my_paths := \
   $(TARGET_COPY_OUT_SYSTEM)/ \
 
 $(call require-artifacts-in-path, $(_my_paths), $(_my_allowed_list))
+
+$(call inherit-product-if-exists, gonk-misc/b2g.mk)
